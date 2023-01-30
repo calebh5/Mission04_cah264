@@ -1,0 +1,55 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Title and favicon and bootstrap sheet connection-->
+    <meta charset="utf-8" />
+    <title>Mission 4 Assignment</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+    <link href="lib/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Header with name-->
+    <h1>Caleb</h1>
+
+    <!--An image of me squatting-->
+    <img id="calebSquat" src="img/squatting.jpg" />
+
+    <!--Paragraph of what I hope to get out of the class-->
+    <p>I hope to gain a good understanding of a strongly typed progamming language. I don't think I can learn it perfectly. But I can try to understand agreat amount to gain me an internship.</p>
+
+    <!--Personal style with the list of what I want to do-->
+    <ol class="rainbow-text">
+        <li>Technical Analysts Business Analysts</li>
+        <li>Data Engineer/Architect</li>
+        <li>Software Engineer</li>
+    </ol>
+
+    <!--Computes the avg grade from a percentage grade scale-->
+    <h2>Grade Calculator:</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="gpaAssignments" />% <br />
+        <label>Group Projects:</label>
+        <input id="gpaGroupProjects" />% <br />
+        <label>Quizzes:</label>
+        <input id="gpaQuizzes" />% <br />
+        <label>Midterm Exam:</label>
+        <input id="gpaMidterm" />% <br />
+        <label>Final Exam:</label>
+        <input id="gpaFinal" />% <br />
+        <label>INTEX:</label>
+        <input id="gpaINTEX" />% <br />
+        <input id="btnSend" type="button" value="Send Grades" />
+    </form>
+
+    <!--How I display the score-->
+    <div class="display">Score:</div>
+
+    <!--My linked js-->
+    <script src="lib/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/GradeCalculator.js"></script>
+</body>
+</html>
